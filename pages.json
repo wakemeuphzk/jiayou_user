@@ -1,0 +1,207 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "家护通",
+				"navigationBarBackgroundColor": "#ffffff"
+				// "navigationStyle": "custom" 
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录"
+			}
+		},
+		{
+		      "path": "pages/poster/poster",
+		      "style": {
+		        "navigationBarTitleText": "会员特权"
+		      }
+		    },
+    {
+      "path": "pages/serviceAgreement",
+      "style": {
+        "navigationBarTitleText": "服务协议"
+      }
+    },
+    {
+      "path": "pages/privacyPolicy",
+      "style": {
+        "navigationBarTitleText": "隐私政策"
+      }
+    },
+    {
+    	"path" : "pages/recharge/recharge",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "充值套餐"
+    	}
+    },
+    {
+    	"path" : "pages/recharge/confirm",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "充值确认"
+    	}
+    },
+    {
+    	"path" : "pages/recharge/result",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "充值结果"
+    	}
+    },
+    {
+    	"path" : "pages/user/wallet",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "我的钱包"
+    	}
+    },
+    {
+    	"path" : "pages/coupon/coupon",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "我的优惠券"
+    	}
+    },
+    {
+    	"path" : "pages/user/address",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "地址管理",
+    		"navigationStyle": "custom"
+    	}
+    },
+    {
+    	"path" : "pages/user/profile",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "个人信息",
+    		"navigationStyle": "custom"
+    	}
+    },
+    {
+    	"path" : "pages/service/detail",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "服务详情",
+    		"navigationBarBackgroundColor": "#ffffff"
+    	}
+    },
+    {
+    	"path" : "pages/order/create",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "填写订单",
+    		"navigationStyle": "custom"
+    	}
+    },
+    {
+    	"path" : "pages/card/detail",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "次卡详情",
+    		"navigationBarBackgroundColor": "#ffffff"
+    	}
+    },
+    {
+    	"path" : "pages/card/my-cards",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "我的次卡",
+    		"navigationStyle": "custom"
+    	}
+    },
+    {
+    	"path" : "pages/order/detail",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "订单详情",
+    		"navigationStyle": "custom"
+    	}
+    },
+    {
+    	"path" : "pages/rating/create",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "评价订单",
+    		"navigationStyle": "custom"
+    	}
+    },
+    {
+    	"path" : "pages/rating/my-ratings",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "我的评价",
+    		"navigationStyle": "custom"
+    	}
+    },
+    {
+    	"path" : "pages/rating/edit",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "修改评价",
+    		"navigationStyle": "custom"
+    	}
+    },
+    {
+    	"path" : "pages/notification/notification",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "消息中心",
+    		"navigationBarBackgroundColor": "#ffffff"
+    	}
+    }
+	],
+	"tabBar": {
+		"color": "#535353",
+		"selectedColor": "#0bb584",
+		"borderStyle": "white",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/tab_index.png",
+			"selectedIconPath": "static/images/tab_index_seled.png",
+			"text": "预定"
+		}, {
+			"pagePath": "pages/order/order",
+			"iconPath": "static/images/tab_pub.png",
+			"selectedIconPath": "static/images/tab_pub_seled.png",
+			"text": "订单"
+		}, {
+			"pagePath": "pages/notification/notification",
+			"iconPath": "static/images/ic_alarm.png",
+			"selectedIconPath": "static/images/ic_alarm.png",
+			"text": "消息"
+		}, {
+			"pagePath": "pages/user/user",
+			"iconPath": "static/images/tab_user.png",
+			"selectedIconPath": "static/images/tab_user_seled.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "家护通",
+		"navigationBarBackgroundColor": "#006eff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
